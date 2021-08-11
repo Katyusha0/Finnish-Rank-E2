@@ -1,0 +1,32 @@
+@name Civ Upseerioppilas
+entity():setAlpha(0)
+
+Gold = vec(255,191,0)
+Green = vec(44,66,23)
+
+# Backing #
+holoCreate(1)
+holoColor(1,Green)
+holoMaterial(1,"models/props/CS_militia/milceil001")
+holoModel(1,"models/hunter/plates/plate025x05.mdl")
+holoAng(1,owner():attachmentAng("chest"))
+holoPos(1,owner():attachmentPos("chest"))
+holoParentAttachment(1,owner(),"chest")
+holoScale(1,vec(0.15,0.15,0.2))
+holoAlpha(1,255)
+holoPos(1,holoEntity(1):toWorld(vec(3.7,0,0)))
+holoAng(1,holoEntity(1):toWorld(ang(0,90,90)))
+
+# Upseerioppilas #
+
+holoCreate(9)
+holoColor(9,Gold)
+holoMaterial(9,"models/props/CS_militia/milceil001")
+holoModel(9,"models/hunter/plates/plate025x025.mdl")
+holoAng(9,owner():attachmentAng("chest"))
+holoPos(9,owner():attachmentPos("chest"))
+holoParentAttachment(9,owner(),"chest")
+holoScale(9,vec(0.04,0.04,0.05))
+holoAlpha(9,255)
+holoPos(9,holoEntity(9):toWorld(vec(4.0,0,0)))
+holoAng(9,holoEntity(9):toWorld(ang(45,-90,90)))

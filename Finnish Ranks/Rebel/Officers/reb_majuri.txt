@@ -1,0 +1,44 @@
+@name Reb Majuri
+entity():setAlpha(0)
+
+Gold = vec(255,191,0)
+Green = vec(44,66,23)
+
+# Backing #
+holoCreate(1)
+holoColor(1,Green)
+holoMaterial(1,"models/props/CS_militia/milceil001")
+holoModel(1,"models/hunter/plates/plate025x05.mdl")
+holoAng(1,owner():attachmentAng("chest"))
+holoPos(1,owner():attachmentPos("chest"))
+holoParentAttachment(1,owner(),"chest")
+holoScale(1,vec(0.15,0.15,0.2))
+holoAlpha(1,255)
+holoPos(1,holoEntity(1):toWorld(vec(5.23,0,0)))
+holoAng(1,holoEntity(1):toWorld(ang(0,90,90)))
+
+# Majuri #
+
+holoCreate(6)
+holoColor(6,Gold)
+holoMaterial(6,"models/props/CS_militia/milceil001")
+holoModel(6,"models/maxofs2d/button_05.mdl")
+holoAng(6,owner():attachmentAng("chest"))
+holoPos(6,owner():attachmentPos("chest"))
+holoParentAttachment(6,owner(),"chest")
+holoScale(6,vec(0.07))
+holoAlpha(6,255)
+holoPos(6,holoEntity(6):toWorld(vec(5.7,0,0)))
+holoAng(6,holoEntity(6):toWorld(ang(0,-90,90)))
+
+holoCreate(5)
+holoColor(5,Gold)
+holoMaterial(5,"models/props/CS_militia/milceil001")
+holoModel(5,"models/maxofs2d/button_05.mdl")
+holoAng(5,owner():attachmentAng("chest"))
+holoPos(5,owner():attachmentPos("chest"))
+holoParentAttachment(5,owner(),"chest")
+holoScale(5,vec(0.07))
+holoAlpha(5,255)
+holoPos(5,holoEntity(5):toWorld(vec(5.7,0,0)))
+holoAng(5,holoEntity(5):toWorld(ang(45,-90,90)))

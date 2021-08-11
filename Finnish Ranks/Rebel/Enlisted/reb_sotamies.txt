@@ -1,0 +1,18 @@
+@name Reb Sotamies
+entity():setAlpha(0)
+
+Gold = vec(255,191,0)
+Green = vec(44,66,23)
+
+# Backing #
+holoCreate(1)
+holoColor(1,Green)
+holoMaterial(1,"models/props/CS_militia/milceil001")
+holoModel(1,"models/hunter/plates/plate025x05.mdl")
+holoAng(1,owner():attachmentAng("chest"))
+holoPos(1,owner():attachmentPos("chest"))
+holoParentAttachment(1,owner(),"chest")
+holoScale(1,vec(0.15,0.15,0.2))
+holoAlpha(1,255)
+holoPos(1,holoEntity(1):toWorld(vec(5.23,0,0)))
+holoAng(1,holoEntity(1):toWorld(ang(0,90,90)))
