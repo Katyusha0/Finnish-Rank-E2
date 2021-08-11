@@ -1,0 +1,8 @@
+Hello, so um follow these steps to have them ingame
+
+Follow this,
+Program Files (x86)/Steam/steamapps/common/GarrysMod/garrysmod/data/expression2
+then just drop it there
+
+if you are ingame under wire look for expression2 and click update
+if you are not ingame then it will be there when you look for expression2
